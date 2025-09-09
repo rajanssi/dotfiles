@@ -6,7 +6,13 @@
 -- }
 
 return {
-    "yorik1984/newpaper.nvim",
+  {
+    'yorik1984/newpaper.nvim',
+    opts = {
+      style         = "dark",
+      saturation    = 0.2,
+      lualine_style = "dark",
+    },
     -- "NLKNguyen/papercolor-theme"
+  }
 }
-
