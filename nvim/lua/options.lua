@@ -15,14 +15,16 @@ opt.completeopt   = 'menuone,noinsert,noselect' -- Autocomplete options
 opt.number        = true  -- Show line number
 opt.showmatch     = true  -- Highlight matching parenthesis
 opt.foldmethod    = 'marker' -- Enable folding (default 'foldmarker')
-opt.colorcolumn   = '160'  -- Line lenght marker at 80 columns
+opt.colorcolumn   = '140'  -- Line lenght marker at 80 columns
 opt.splitright    = true  -- Vertical split to the right
 opt.splitbelow    = true  -- Horizontal split to the bottom
 opt.ignorecase    = true  -- Ignore case letters when search
 opt.smartcase     = true  -- Ignore lowercase for the whole pattern
 opt.linebreak     = true  -- Wrap on word boundary
+opt.wrap          = false
 opt.termguicolors = true  -- Enable 24-bit RGB colors
 opt.laststatus    = 3     -- Set global statusline
+opt.background    = "dark"
 
 -----------------------------------------------------------
 -- Tabs, indent

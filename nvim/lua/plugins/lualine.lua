@@ -5,7 +5,7 @@ return {
     config = function()
       require("lualine").setup {
         options = {
-          theme = "newpaper",
+          -- theme = "tender",
           -- theme = "newpaper-light",
           -- empty with newpaper colorscheme
           section_separators = { "", "" },

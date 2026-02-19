@@ -1,15 +1,18 @@
-require('lazy').setup({
-  require 'telescope',
-  require 'lspconfig',
-  require 'treesitter',
+require("lazy").setup({
+	require("telescope"),
+	require("lspconfig"),
+	require("treesitter"),
 
-  require 'blink',
+	-- require 'oxocarbon',
+	require("colorscheme"),
 
-  require 'colorscheme',
-  require 'lline', -- Named as such due to namespace collisions whne calling 'lualine'.setup()
+	require("plugins/lualine"),
+	require("plugins/cursor-light"),
+	-- require 'sidekick',
+	-- require("plugins/minuet"),
+	require("plugins/blink"),
+	require("plugins/poimandres"),
 })
 
--- vim.cmd[[colorscheme gruvbox-baby]]
-vim.cmd [[colorscheme newpaper]]
--- vim.cmd[[colorscheme PaperColor]]
-
+vim.cmd([[colorscheme oxocarbon]])
+vim.cmd([[set background=dark]])
